@@ -529,12 +529,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7289228200661221964}
-        m_MethodName: 
+      - m_Target: {fileID: 7289228200661221966}
+        m_MethodName: GotoSampleScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -646,19 +646,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11229d697ea1e48668c7f7c3b1bf1094, type: 3}
---- !u!1 &7289228200661221964 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3180182684273691882, guid: 11229d697ea1e48668c7f7c3b1bf1094,
+--- !u!114 &7289228200661221966 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -8050345924160553471, guid: 11229d697ea1e48668c7f7c3b1bf1094,
     type: 3}
   m_PrefabInstance: {fileID: 7289228200661221963}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &7289228200661221965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7289228200661221964}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5afe9da1bef9144e3b55e785b5b1d135, type: 3}

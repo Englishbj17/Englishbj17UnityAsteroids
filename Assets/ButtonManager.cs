@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
@@ -15,4 +16,14 @@ public class ButtonManager : MonoBehaviour
     {
         
     }
+    public void GotoSampleScene()
+    {
+        SceneManager.LoadScene("SampleScene");
+    }
+
+    public void GotoMenuScene()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
+
