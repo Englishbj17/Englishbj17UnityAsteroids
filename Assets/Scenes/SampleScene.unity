@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  key: 32
+  key: 273
   pushStrength: 8
   axis: 1
   relativeAxis: 0
