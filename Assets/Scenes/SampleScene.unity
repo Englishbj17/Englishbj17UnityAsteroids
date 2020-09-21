@@ -685,7 +685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
   typeOfControl: 0
-  speed: 2
+  speed: 200
 --- !u!114 &745070942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
   key: 273
-  pushStrength: 5
+  pushStrength: 150
   axis: 1
   relativeAxis: 1
 --- !u!50 &745070943
